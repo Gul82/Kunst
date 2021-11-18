@@ -17,8 +17,9 @@ margin-top: 16px;
 
 #logo-name {
     font-size: 32px;
-    font font-weight: bold;
+    font-weight: bold;
     margin: 16px;
+    letter-spacing: 5px
 }
 
 #navigation a {
@@ -33,17 +34,34 @@ margin-top: 16px;
     
 }
 
-#image img {
-    width: 13%;
-    height: 210px;
+.bild img{
+    display: block;
+    width: 100%;
+    
     margin-top: 25px;
     margin-bottom: 50px;
+    height: 300px;
+    object-fit: cover;
+    padding: 16px;
+}
+
+.bild {
+    display: inline-block;
+    width: 20%;
+    height: 210px;
+
+    margin: 12px 5px 12px;
+
+}
+
+/*img {
+    
     
     
 }
 
 #main {
-    max-width: 800px;
+    width: 800px;
     margin:auto;
     
 }
